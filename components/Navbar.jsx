@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -58,9 +58,9 @@ const Navbar = () => {
         <Link href='/'>
           <a>
             <Image
-              src={NavLogo}
+              src="/../public/assets/logo.png" 
               alt='/'
-              width='125'
+              width='50'
               height='50'
               className='cursor-pointer'
             />
@@ -69,7 +69,7 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/'>Home</Link>
+              <Link href='/#home'>Home</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#about'>About</Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+              <Link href='https://bit.ly/portofolioRaven'>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
@@ -140,7 +140,7 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/'>
+              <Link href='/#home'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Home
                 </li>
@@ -160,7 +160,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/resume'>
+              <Link href='https://bit.ly/portofolioRaven'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
@@ -177,7 +177,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/ravenkongl/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -186,7 +186,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/ravenkong28'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -202,7 +202,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='/resume'>
+                <Link href='https://bit.ly/portofolioRaven'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
