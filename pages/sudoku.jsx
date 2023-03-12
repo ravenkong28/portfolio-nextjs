@@ -73,4 +73,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default sudoku;
