@@ -78,4 +78,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default kenshin;
