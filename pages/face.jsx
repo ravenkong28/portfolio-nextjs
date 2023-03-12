@@ -4,7 +4,7 @@ import faceImg from '../public/assets/projects/face.jpg'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const crypto = () => {
+const face = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
