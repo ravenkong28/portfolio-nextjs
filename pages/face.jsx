@@ -76,4 +76,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default face;
