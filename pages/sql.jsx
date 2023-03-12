@@ -105,4 +105,4 @@ const twitch = () => {
   );
 };
 
-export default twitch;
+export default sql;
