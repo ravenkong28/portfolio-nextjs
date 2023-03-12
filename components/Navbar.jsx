@@ -62,7 +62,6 @@ const Navbar = () => {
               alt='/'
               width='50'
               height='50'
-              className='cursor-pointer'
             />
           </a>
         </Link>
