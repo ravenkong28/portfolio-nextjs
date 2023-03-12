@@ -60,8 +60,8 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='120'
-              height='50'
+              width='75'
+              height='75'
             />
           </a>
         </Link>
@@ -118,8 +118,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='120'
-                    height='50'
+                    width='75'
+                    height='75'
                     alt='/'
                   />
                 </a>
