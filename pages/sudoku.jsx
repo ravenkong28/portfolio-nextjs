@@ -29,7 +29,7 @@ const netflix = () => {
           <p>
             
             I built this application in C/C++ with the features to help user 
-            solve the sudoku problem given. It's use where we only enter the 
+            solve the sudoku problem given. It&aposs use where we only enter the 
             numbers in the 9x9 sudoku where the empty space will be scored 0 
             and the numbers 1-9 will remain the same as the result were given
             and the results are given according to the photo.
