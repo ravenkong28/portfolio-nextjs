@@ -10,19 +10,18 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
-            LET&#39;S BUILD SOMETHING TOGETHER
+            Portofolio Website of Raven Kongnando Lasher
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Clint</span>
+            Hi, I&#39;m <span className='text-[#5651e5]'> Raven</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
+          <h2 className='py-2 text-gray-700'>Student of Computer Science and Mathematics Major from Bina Nusantara University (BINUS)</h2>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I’m focused on building responsive front-end web applications
-            integrating back-end technologies.
+          An students who&#39;s passionate in developing applications and analysis data
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/ravenkongl/'
               target='_blank'
               rel='noreferrer'
             >
@@ -31,7 +30,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/ravenkong28'
               target='_blank'
               rel='noreferrer'
             >
@@ -44,7 +43,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
+            <Link href='https://bit.ly/portofolioRaven'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
