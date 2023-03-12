@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I'm a college student with a great passion for analysis data, 
+            I&aposm a college student with a great passion for analysis data, 
             make and develop an applications, and all the related field. 
             I’m passionate about learning new technologies and a hard 
             worker and want to develop any kind of new skill as needed.
