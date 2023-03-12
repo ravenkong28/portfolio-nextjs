@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import kenshinImg from '../public/assets/projects/kenshin.png';
+import faceImg from '../public/assets/projects/face.jpg'
+import sudokuImg from '../public/assets/projects/sudoku.png'
+import sqlImg from '../public/assets/projects/sql.jpg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,32 +17,33 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Kenshin Impact'
+            backgroundImg={kenshinImg}
+            projectUrl='/kenshin'
+            tech='HTML, CSS, JS'
           />
+              
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            title='Face Detection'
+            backgroundImg={faceImg}
+            projectUrl='/face'
+            tech='Python'
           />
+              
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            title='Sudoku Solver'
+            backgroundImg={sudokuImg}
+            projectUrl='/sudoku'
+            tech='C/C++'
           />
+              
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            title='CloudBRoker Analysis'
+            backgroundImg={sqlImg}
+            projectUrl='/sql'
+            tech='SQL'
           />
+              
         </div>
       </div>
     </div>
