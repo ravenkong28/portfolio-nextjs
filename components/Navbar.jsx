@@ -80,7 +80,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='https://bit.ly/portofolioRaven'>Resume</Link>
+              <Link href='https://drive.google.com/file/d/1hH2b3PHzkSImwnKQq7TV4lvR8NNLAX33/view?usp=share_link'>Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
