@@ -60,7 +60,7 @@ const Contact = () => {
                     <AiOutlineMail />
                   </div>
                   </Link>
-                  <Link href='https://bit.ly/portofolioRaven'>
+                  <Link href='https://drive.google.com/file/d/1hH2b3PHzkSImwnKQq7TV4lvR8NNLAX33/view?usp=share_link'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                     </div>
